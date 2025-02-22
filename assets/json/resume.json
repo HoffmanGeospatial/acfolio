@@ -1,30 +1,30 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "C.E. Dallas Hoffman",
+    "label": "Geospatial Information Analytics Science and Technology Professional (GISP)",
     "image": "",
-    "email": "albert@einstein.de",
+    "email": "hoffmangeospatial@gmx.com",
     "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "url": "https://hoffmangeospatial.github.io/acfolio",
+    "summary": "Mission-oriented, keenly dynamic GIS and data analytics professional who thrives on challenges demanding adaptability and fortitude. Over two decades work experience in myriad roles, realms, industries, and geographical locations. Passionate autodidact,* lifelong learner - dedicated to maintaining mastery in geospatial information sciences, including environmental analysis, imagery and photogrammetry, cartography, data management, web services, and LiDAR point cloud processing techniques, in addition to programming and development of blended data analysis solutions using free, open source software (FOSS).",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
+      "address": "",
+      "postalCode": "NC 27511",
+      "city": "Cary-Raleigh-Research Triangle",
       "countryCode": "US",
-      "region": "California"
+      "region": "North Carolina"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "GitHub",
+        "username": "HoffmanGeospatial",
+        "url": "https://hoffmangeospatial.github.io"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
+      "name": "North Carolina State University",
       "position": "Professor of Theoretical Physics",
       "url": "https://example.com",
       "startDate": "1933-01-01",
