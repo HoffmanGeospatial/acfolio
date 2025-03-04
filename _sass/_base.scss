@@ -2,6 +2,14 @@
  * Styles for the base elements of the theme.
  ******************************************************************************/
 
+// Custom font color gradient for "logo" text
+.linear-text-gradient {
+  background: linear-gradient(to top right, #0033cc 0%, #66ffff 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
 // Typography
 
 p,
@@ -198,7 +206,10 @@ ul.task-list input[type="checkbox"] {
   .more-info {
     margin-bottom: 5px;
     margin-top: 5px;
-    font-family: monospace;
+    font-family: 'Roboto';
+    font-size: 12px;
+    font-weight: 100;
+    color: gray;
 
     p {
       display: inline-block;
@@ -533,7 +544,7 @@ footer.sticky-bottom {
 
 .date-column {
   width: 75px;
-  transform: translateX(-15px) translateY(-5px);
+  transform: translateX(-15px) translateY(0px);
 }
 
 // Repositories

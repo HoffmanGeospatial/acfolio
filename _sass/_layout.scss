@@ -31,10 +31,18 @@ body.sticky-bottom-footer {
   max-width: $max-content-width;
 }
 
+// Custom font color gradient for "logo" text
+.linear-text-gradient {
+  background: linear-gradient(to top right, #0033cc 0%, #66ffff 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
 // Profile
 .profile {
   img {
-    width: 100%;
+    width: auto;
   }
 }
 

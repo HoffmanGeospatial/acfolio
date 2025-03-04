@@ -1,6 +1,7 @@
 <header>
   <!-- Nav Bar -->
   <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
+    <img src="/assets/img/hglogoicon.png" width="60" height="50">
     <div class="container">
       {% if page.permalink != '/' %}
         <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
@@ -21,6 +22,7 @@
           {% endif %}
         </a>
       {% elsif site.enable_navbar_social %}
+
         <!-- Social Icons -->
         <div class="navbar-brand social">{% include social.liquid %}</div>
       {% endif %}
@@ -118,6 +120,7 @@
             {% endif %}
           {% endfor %}
           {% if site.search_enabled %}
+
             <!-- Search -->
             <li class="nav-item">
               <button id="search-toggle" title="Search" onclick="openSearchModal()">
@@ -126,6 +129,7 @@
             </li>
           {% endif %}
           {% if site.enable_darkmode %}
+
             <!-- Toogle theme mode -->
             <li class="toggle-container">
               <button id="light-toggle" title="Change theme">
@@ -140,6 +144,7 @@
     </div>
   </nav>
   {% if site.enable_progressbar %}
+
     <!-- Scrolling Progress Bar -->
     <progress id="progress" value="0">
       <div class="progress-container">
