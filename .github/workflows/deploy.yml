@@ -67,10 +67,10 @@ jobs:
     # available images: https://github.com/actions/runner-images#available-images
     runs-on: ubuntu-latest
     steps:
-      - name: Debug Jekyll
-        run: |
-          cat _config.yml
-          bundle list
+      #- name: Debug Jekyll
+        #run: |
+          #cat _config.yml
+          #bundle list
       - name: Checkout 🛎️
         uses: actions/checkout@v4
       - name: Setup Ruby 💎
