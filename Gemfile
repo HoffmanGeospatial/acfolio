@@ -13,14 +13,14 @@ group :jekyll_plugins do
     gem 'jekyll-link-attributes'
     gem 'jekyll-minifier'
     gem 'jekyll-paginate-v2'
-    #gem 'jekyll-pdf-embed'
+    # gem 'jekyll-pdf-embed'
     gem 'jekyll-regex-replace'
     gem 'jekyll-scholar'
     gem 'jekyll-sitemap'
     gem 'jekyll-tabs'
     gem 'jekyll-terser', :git => "https://github.com/RobertoJBeltran/jekyll-terser.git"
     gem 'jekyll-toc'
-    gem 'jekyll-twitter-plugin'
+    # gem 'jekyll-twitter-plugin'
     gem 'jemoji'
 
     gem 'classifier-reborn'  # used for content categorization during the build
